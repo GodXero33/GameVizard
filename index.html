@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>GameVizard</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+		<link rel="shortcut icon" href="res/img/controll.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/root.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/content.css">
+		<link rel="stylesheet" href="css/home-section.css">
+		<link rel="stylesheet" href="css/menu-section.css">
+		<link rel="stylesheet" href="css/settings-section.css">
+		<link rel="stylesheet" href="css/info.css">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script type="text/javascript" src="js/sketch.js" defer></script>
+		<script type="text/javascript" src="js/content.js" defer></script>
+		<script type="text/javascript" src="js/navbar.js" defer></script>
+		<script type="text/javascript" src="js/info.js" defer></script>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="nav-container">
+				<nav>
+					<div class="nav-logo"></div>
+					<div class="nav-cont">
+						<div class="nav-item active" title="home"></div>
+						<div class="nav-item" title="menu"></div>
+						<div class="nav-item" title="settings"></div>
+					</div>
+				</nav>
+			</div>
+			<div id="content-container">
+				<section id="home-section">
+					<div id="header-carousel">
+						<div class="carousel"></div>
+						<div class="cover"></div>
+						<div class="navigator"></div>
+						<div class="navigator"></div>
+					</div>
+					<div id="user-gameplay-frequent">
+						<h1>Your Gameplay</h1>
+						<div id="gameplay-frequent-canvas-container">
+							<canvas id="gameplay-frequent-canvas"></canvas>
+						</div>
+					</div>
+					<div id="user-recomend-games">
+						<h1>New For You</h1>
+						<div id="user-recomend-games-container"></div>
+					</div>
+					<div id="user-revords">
+						<div>
+							<h1>Rewords</h1>
+							<div id="user-rewords-select"></div>
+						</div>
+						<div id="user-revords-container">
+							<canvas id="user-revords-canvas"></canvas>
+						</div>
+					</div>
+				</section>
+				<section id="menu-section" class="hide"></section>
+				<section id="settings-section" class="hide"></section>
+			</div>
+			<div id="info-container-motel" class="hide"></div>
+			<div id="info-container" class="hide">
+				<div id="profile-icon"></div>
+				<div id="profile-info">
+					<h1>GodXero</h1>
+					<p><span>online</span> | <span>active</span></p>
+				</div>
+			</div>
+		</div>
+		<div id="loader">
+			<h1>GameVizard</h1>
+			<p>Manage all your Gmaing experiances in one place.</p>
+		</div>
+	</body>
+</html>

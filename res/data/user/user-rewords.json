@@ -1,0 +1,86 @@
+[
+	{
+		"game": "Farlight 84",
+		"rewords": [
+			{
+				"label": "l1",
+				"count": 2
+			},
+			{
+				"label": "l2",
+				"count": 2
+			},
+			{
+				"label": "l3",
+				"count": 5
+			},
+			{
+				"label": "l4",
+				"count": 8
+			}
+		]
+	},
+	{
+		"game": "Clash of Clans",
+		"rewords": [
+			{
+				"label": "l1",
+				"count": 23
+			},
+			{
+				"label": "l2",
+				"count": 12
+			},
+			{
+				"label": "l3",
+				"count": 17
+			},
+			{
+				"label": "l4",
+				"count": 8
+			}
+		]
+	},
+	{
+		"game": "Bullet Echo",
+		"rewords": [
+			{
+				"label": "l1",
+				"count": 89
+			},
+			{
+				"label": "l2",
+				"count": 123
+			},
+			{
+				"label": "l3",
+				"count": 170
+			},
+			{
+				"label": "l4",
+				"count": 56
+			}
+		]
+	},
+	{
+		"game": "Ark Survival",
+		"rewords": [
+			{
+				"label": "l1",
+				"count": 1134
+			},
+			{
+				"label": "l2",
+				"count": 1223
+			},
+			{
+				"label": "l3",
+				"count": 1754
+			},
+			{
+				"label": "l4",
+				"count": 2000
+			}
+		]
+	}
+]

@@ -1,0 +1,51 @@
+[
+	{
+		"name": "The Great Adventure",
+		"category": "Fiction",
+		"publisher": "Penguin Random House",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/the-great-adventure"
+	},
+	{
+		"name": "Mastering JavaScript",
+		"category": "Technology",
+		"publisher": "O'Reilly Media",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/mastering-javascript"
+	},
+	{
+		"name": "Healthy Eating 101",
+		"category": "Health & Wellness",
+		"publisher": "HarperCollins",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/healthy-eating-101"
+	},
+	{
+		"name": "World History: A Journey",
+		"category": "History",
+		"publisher": "McGraw Hill",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/world-history"
+	},
+	{
+		"name": "Meditation for Beginners",
+		"category": "Self-Help",
+		"publisher": "Simon & Schuster",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/meditation-for-beginners"
+	},
+	{
+		"name": "The Art of Photography",
+		"category": "Art & Photography",
+		"publisher": "Taschen",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/art-of-photography"
+	},
+	{
+		"name": "Introduction to Data Science",
+		"category": "Education",
+		"publisher": "Packt Publishing",
+		"img": "res/img/header/1.jpg",
+		"url": "https://example.com/data-science-intro"
+	}
+]

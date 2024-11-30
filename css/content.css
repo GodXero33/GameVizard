@@ -1,0 +1,30 @@
+#content-container {
+	& {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: hsl(from var(--background-color) h s calc(l + 5));
+		flex-grow: 1;
+		overflow-x: hidden;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: #b884fb transparent;
+	}
+
+	section {
+		position: absolute;
+		padding-bottom: 2rem;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: fit-content;
+		transition: opacity 0.2s linear;
+	}
+
+	section.hide {
+		opacity: 0;
+		pointer-events: none;
+	}
+}

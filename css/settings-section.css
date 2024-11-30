@@ -1,0 +1,5 @@
+#settings-section {
+	& {
+		background-color: red;
+	}
+}

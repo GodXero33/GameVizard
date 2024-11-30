@@ -1,0 +1,22 @@
+[
+	{
+		"img": "res/img/header/farlight84.jpg",
+		"text": "Farlight 84",
+		"link": ""
+	},
+	{
+		"img": "res/img/header/coc.jpg",
+		"text": "Clash of Clans",
+		"link": ""
+	},
+	{
+		"img": "res/img/header/bullet-echo.png",
+		"text": "Bullet Echo",
+		"link": ""
+	},
+	{
+		"img": "res/img/header/ark-survival.webp",
+		"text": "Ark Survival",
+		"link": ""
+	}
+]
