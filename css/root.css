@@ -1,0 +1,35 @@
+:root {
+	--background-color: #1d1d1d;
+	--nav-size: 4rem;
+	--info-size: 3.2rem;
+	--info-size-open: 200px;
+	--font-size: 18px;
+}
+
+@font-face {
+	font-family: JelleeRoman;
+	src: url(../res/font/Jellee-Roman.ttf);
+}
+
+@font-face {
+	font-family: junegullRG;
+	src: url(../res/font/junegull\ rg.otf);
+}
+
+@keyframes nav-spin {
+	from {
+		transform: scale(1.1) rotate(0);
+	}
+
+	to {
+		transform: scale(1.1) rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	:root {
+		--font-size: 18px;
+		--nav-size: 3rem;
+		--info-size: 0;
+	}
+}
